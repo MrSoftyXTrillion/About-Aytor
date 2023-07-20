@@ -1,0 +1,220 @@
+/* !COMMON CSS STARTS HERE====================================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Roboto&display=swap');
+:root {
+    --primaryFont: 'Josefin Sans', sans-serif;
+    --secondaryFont: 'Roboto', sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--primaryFont);
+    background-color: rgb(255, 255, 255);
+}
+h1,h2,h3,h4,h5,h6,span,paragraph,ol,ul {
+    margin: 0;
+    padding: 0;
+}
+ul,ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/* !COMMON CSS ENDS HERE======================================================================================== */
+
+/* !ABOUT AYTOR SECTION STARTS HERE */
+/* TV,LAPTOP*/
+#aboutAytor {
+    padding-top: 70px;
+}
+#aboutAytor .imgPart img {
+    width: 100%;
+}
+#aboutAytor .textPart {
+    padding-left: 57px;
+}
+#aboutAytor .textPart h2 {
+    color: var(--text-color, #11161E);
+    font-family: var(--primaryFont);
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+}
+#aboutAytor .textPart p {
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 417px;
+    padding-top: 5px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #BDBDBD;
+}
+#aboutAytor .textPart ul {
+    margin-bottom: 34px;
+}
+#aboutAytor .textPart ul li .icon {
+    font-size: 15px;
+    color: #FF6F61;
+}
+#aboutAytor .textPart ul li .text {
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+#aboutAytor .textPart a {
+    color: var(--comon-colot, #FFF);
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    background-color: #FF6F61;
+    padding: 13px 18px 13px 18px;
+    margin-top: 10px;
+}
+/* TV,LAPTOP*/
+/* LAPTOP,TABLET */
+#aboutAytorMd {
+    padding-top: 70px;
+}
+#aboutAytorMd .imgPartMd {
+    text-align: center;
+}
+#aboutAytorMd .imgPartMd img {
+    width: 70%;
+}
+#aboutAytorMd .textPartMd {
+    padding-left: 57px;
+}
+#aboutAytorMd .textPartMd h2 {
+    color: var(--text-color, #11161E);
+    font-family: var(--primaryFont);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 20px;
+}
+#aboutAytorMd .textPartMd p {
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #BDBDBD;
+}
+#aboutAytorMd .textPartMd ul {
+    margin-bottom: 34px !important;
+    margin: auto;
+}
+#aboutAytorMd .textPartMd ul li {
+    width: 41%;
+    margin: auto;
+    text-align: left;
+}
+#aboutAytorMd .textPartMd ul li .icon {
+    font-size: 15px;
+    color: #FF6F61;
+}
+#aboutAytorMd .textPartMd ul li .text {
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+#aboutAytorMd .textPartMd a {
+    color: var(--comon-colot, #FFF);
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    background-color: #FF6F61;
+    padding: 13px 18px 13px 18px;
+    margin-top: 10px;
+}
+/* LAPTOP,TABLET */
+/* TABLET,MOBILE */
+#aboutAytorSm {
+    padding-top: 70px;
+}
+#aboutAytorSm .imgPartSm {
+    text-align: center;
+}
+#aboutAytorSm .imgPartSm img {
+    width: 100%;
+}
+#aboutAytorSm .textPartSm h2 {
+    color: var(--text-color, #11161E);
+    font-family: var(--primaryFont);
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    margin-top: 20px;
+}
+#aboutAytorSm .textPartSm p {
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 23px;
+    border-bottom: 1px solid #BDBDBD;
+}
+#aboutAytorSm .textPartSm ul {
+    margin-bottom: 34px !important;
+    margin: auto;
+}
+#aboutAytorSm .textPartSm ul li {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+#aboutAytorSm .textPartSm ul li .icon {
+    font-size: 100%;
+    color: #FF6F61;
+}
+#aboutAytorSm .textPartSm ul li .text {
+    color: var(--paragraph-color, #444);
+    font-family: var(--secondaryFont);
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+#aboutAytorSm .textPartSm a {
+    color: var(--comon-colot, #FFF);
+    text-align: center;
+    font-family: var(--primaryFont);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    background-color: #FF6F61;
+    padding: 13px 18px 13px 18px;
+    margin-top: 10px;
+}
+/* TABLET,MOBILE */
+/* !ABOUT AYTOR SECTION ENDS HERE */
